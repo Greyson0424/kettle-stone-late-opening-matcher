@@ -1,0 +1,45 @@
+opening_id,date,start,length_min,therapist,kind,result,reason,suitable_people,candidate_1_line,candidate_1_name,candidate_1_phone,candidate_1_reason,candidate_2_line,candidate_2_name,candidate_2_phone,candidate_2_reason,candidate_3_line,candidate_3_name,candidate_3_phone,candidate_3_reason
+O01,2026-09-21,12:30,60,Josée Landry,late cancel,2 matches,,2,W39,Joel Bertin,506-555-0135,Josée · 30 min · call,W57,Lise Gautreau,506-555-0144,Josée · 60 min · call,,,,
+O02,2026-09-21,15:45,60,Amira Haddad,no-show,Nobody,No-show: the opening is known only after the appointment has started,0,,,,,,,,,,,,
+O03,2026-09-22,11:00,90,Kelsey Babineau,late cancel,3 matches,,6,W10,Sarah Collette,506-555-0109,Kelsey · 60 min · call,W20,Ginette Losier,506-555-0119,Kelsey · 60 min · call,W33,Patrick Chiasson,506-555-0131,Kelsey · 60 min · call
+O04,2026-09-22,12:15,60,Dave Melanson,late cancel,3 matches,,3,W39,Joel Bertin,506-555-0135,Dave · 45 min · call,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W57,Lise Gautreau,506-555-0144,Dave · 60 min · call
+O05,2026-09-23,11:45,60,Rachel Thibodeau,late cancel,3 matches,,6,W33,Patrick Chiasson,506-555-0131,Rachel · 60 min · call,W48,Carole Mazerolle,506-555-0115,Rachel · 60 min · call,W49,Andrea Pitre,506-555-0141,Rachel · 45 min · call
+O06,2026-09-23,15:00,60,Kelsey Babineau,late cancel,3 matches,,4,W10,Sarah Collette,506-555-0109,Kelsey · 60 min · call,W40,Vanessa Caissie,506-555-0136,Kelsey · 60 min · call,W49,Andrea Pitre,506-555-0141,Kelsey · 45 min · call
+O07,2026-09-23,18:45,60,Amira Haddad,no-show,Nobody,No-show: the opening is known only after the appointment has started,0,,,,,,,,,,,,
+O08,2026-09-23,18:45,60,Rachel Thibodeau,late cancel,3 matches,,4,W12,Denis Theriault,506-555-0111,Rachel · 60 min · call,W24,Kevin Steeves,506-555-0123,Rachel · 60 min · text preferred,W38,Rita McGraw,506-555-0134,Rachel · 60 min · call
+O09,2026-09-24,10:15,60,Josée Landry,late cancel,3 matches,,4,W14,Chantal Maltais,(506)555-0113,Josée · 60 min · call,W20,Ginette Losier,506-555-0119,Josée · 60 min · call,W33,Patrick Chiasson,506-555-0131,Josée · 60 min · call
+O10,2026-09-24,13:30,60,Dave Melanson,late cancel,2 matches,,2,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W57,Lise Gautreau,506-555-0144,Dave · 60 min · call,,,,
+O11,2026-09-25,13:15,60,Josée Landry,late cancel,3 matches,,4,W14,Chantal Maltais,(506)555-0113,Josée · 60 min · call,W49,Andrea Pitre,506-555-0141,Josée · 45 min · call,W52,Helene Surette,506-555-0142,Josée · 60 min · call
+O12,2026-09-28,11:30,60,Josée Landry,late cancel,3 matches,,4,W14,Chantal Maltais,(506)555-0113,Josée · 60 min · call,W48,Carole Mazerolle,506-555-0115,Josée · 60 min · call,W51,Pauline Bastarache,506-555-0102,Josée · 60 min · call
+O13,2026-09-28,12:30,30,Amira Haddad,late cancel,1 match,,1,W39,Joel Bertin,506-555-0135,Amira · 30 min · call,,,,,,,,
+O14,2026-09-28,13:30,60,Dave Melanson,no-show,Nobody,No-show: the opening is known only after the appointment has started,0,,,,,,,,,,,,
+O15,2026-09-29,09:00,60,Marc Cormier,late cancel,3 matches,,4,W18,Marcel Bujold,506-555-0117,Marc · 60 min · call,W33,Patrick Chiasson,506-555-0131,Marc · 60 min · call,W46,Shawn Duguay,506-555-0140,Marc · 60 min · call
+O16,2026-09-29,11:00,60,Dave Melanson,late cancel,2 matches,,2,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W60,Mireille Cole,506-555-0138,Dave · 60 min · text preferred,,,,
+O17,2026-09-30,14:45,60,Amira Haddad,late cancel,3 matches,,4,W10,Sarah Collette,506-555-0109,Amira · 60 min · call,W36,Monique Hache,506-555-0132,Amira · 45 min · call,W40,Vanessa Caissie,506-555-0136,Amira · 60 min · call
+O18,2026-10-01,16:30,60,Rachel Thibodeau,late cancel,1 match,,1,W20,Ginette Losier,506-555-0119,Rachel · 60 min · call,,,,,,,,
+O19,2026-10-01,17:45,60,Dave Melanson,late cancel,3 matches,,4,W24,Kevin Steeves,506-555-0123,Dave · 60 min · text preferred,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W47,Normand Vienneau,506-555-0104,Dave · 60 min · call
+O20,2026-10-02,12:00,60,Dave Melanson,late cancel,3 matches,,3,W39,Joel Bertin,506-555-0135,Dave · 45 min · call,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W57,Lise Gautreau,506-555-0144,Dave · 60 min · call
+O21,2026-10-02,13:00,60,Josée Landry,no-show,Nobody,No-show: the opening is known only after the appointment has started,0,,,,,,,,,,,,
+O22,2026-10-02,13:15,60,Dave Melanson,late cancel,2 matches,,2,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W57,Lise Gautreau,506-555-0144,Dave · 60 min · call,,,,
+O23,2026-10-05,10:15,60,Amira Haddad,late cancel,3 matches,,7,W10,Sarah Collette,506-555-0109,Amira · 60 min · call,W36,Monique Hache,506-555-0132,Amira · 45 min · call,W40,Vanessa Caissie,506-555-0136,Amira · 60 min · call
+O24,2026-10-05,14:45,60,Amira Haddad,late cancel,3 matches,,4,W10,Sarah Collette,506-555-0109,Amira · 60 min · call,W36,Monique Hache,506-555-0132,Amira · 45 min · call,W40,Vanessa Caissie,506-555-0136,Amira · 60 min · call
+O25,2026-10-06,12:00,60,Dave Melanson,late cancel,3 matches,,3,W39,Joel Bertin,506-555-0135,Dave · 45 min · call,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W57,Lise Gautreau,506-555-0144,Dave · 60 min · call
+O26,2026-10-06,13:15,30,Dave Melanson,no-show,Nobody,No-show: the opening is known only after the appointment has started,0,,,,,,,,,,,,
+O27,2026-10-06,15:30,90,Kelsey Babineau,late cancel,3 matches,,4,W10,Sarah Collette,506-555-0109,Kelsey · 60 min · call,W12,Denis Theriault,506-555-0111,Kelsey · 60 min · call,W20,Ginette Losier,506-555-0119,Kelsey · 60 min · call
+O28,2026-10-07,11:15,60,Josée Landry,late cancel,3 matches,,5,W33,Patrick Chiasson,506-555-0131,Josée · 60 min · call,W48,Carole Mazerolle,506-555-0115,Josée · 60 min · call,W51,Pauline Bastarache,506-555-0102,Josée · 60 min · call
+O29,2026-10-08,10:15,60,Josée Landry,no-show,Nobody,No-show: the opening is known only after the appointment has started,0,,,,,,,,,,,,
+O30,2026-10-08,11:00,60,Dave Melanson,late cancel,1 match,,1,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,,,,,,,,
+O31,2026-10-08,15:15,60,Dave Melanson,late cancel,Nobody,No active waitlist person safely fits every known rule,0,,,,,,,,,,,,
+O32,2026-10-09,13:45,60,Rachel Thibodeau,late cancel,1 match,,1,W49,Andrea Pitre,506-555-0141,Rachel · 45 min · call,,,,,,,,
+O33,2026-10-09,17:15,60,Dave Melanson,late cancel,3 matches,,5,W24,Kevin Steeves,506-555-0123,Dave · 60 min · text preferred,W37,Greg Wilson,506-555-0133,Dave · 60 min · call,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call
+O34,2026-10-14,11:00,60,Rachel Thibodeau,late cancel,3 matches,,6,W33,Patrick Chiasson,506-555-0131,Rachel · 60 min · call,W48,Carole Mazerolle,506-555-0115,Rachel · 60 min · call,W49,Andrea Pitre,506-555-0141,Rachel · 45 min · call
+O35,2026-10-14,15:00,60,Rachel Thibodeau,late cancel,2 matches,,2,W49,Andrea Pitre,506-555-0141,Rachel · 45 min · call,W53,Luc Bernard,506-555-0121,Rachel · 60 min · call,,,,
+O36,2026-10-14,16:00,60,Kelsey Babineau,late cancel,3 matches,,6,W10,Sarah Collette,506-555-0109,Kelsey · 60 min · call,W12,Denis Theriault,506-555-0111,Kelsey · 60 min · call,W40,Vanessa Caissie,506-555-0136,Kelsey · 60 min · call
+O37,2026-10-15,11:00,60,Dave Melanson,no-show,Nobody,No-show: the opening is known only after the appointment has started,0,,,,,,,,,,,,
+O38,2026-10-15,11:15,60,Marc Cormier,late cancel,3 matches,,4,W18,Marcel Bujold,506-555-0117,Marc · 60 min · call,W33,Patrick Chiasson,506-555-0131,Marc · 60 min · call,W46,Shawn Duguay,506-555-0140,Marc · 60 min · call
+O39,2026-10-15,14:00,60,Dave Melanson,late cancel,3 matches,,3,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W53,Luc Bernard,506-555-0121,Dave · 60 min · call,W57,Lise Gautreau,506-555-0144,Dave · 60 min · call
+O40,2026-10-15,16:00,60,Rachel Thibodeau,late cancel,Nobody,No active waitlist person safely fits every known rule,0,,,,,,,,,,,,
+O41,2026-10-16,12:00,60,Dave Melanson,late cancel,3 matches,,4,W39,Joel Bertin,506-555-0135,Dave · 45 min · call,W46,Shawn Duguay,506-555-0140,Dave · 60 min · call,W53,Luc Bernard,506-555-0121,Dave · 60 min · call
+O42,2026-10-16,14:15,60,Kelsey Babineau,late cancel,3 matches,,5,W10,Sarah Collette,506-555-0109,Kelsey · 60 min · call,W40,Vanessa Caissie,506-555-0136,Kelsey · 60 min · call,W49,Andrea Pitre,506-555-0141,Kelsey · 45 min · call
+O43,2026-10-16,15:00,60,Dave Melanson,no-show,Nobody,No-show: the opening is known only after the appointment has started,0,,,,,,,,,,,,
+O44,2026-10-17,14:00,60,Amira Haddad,late cancel,2 matches,,2,W36,Monique Hache,506-555-0132,Amira · 45 min · call,W40,Vanessa Caissie,506-555-0136,Amira · 60 min · call,,,,

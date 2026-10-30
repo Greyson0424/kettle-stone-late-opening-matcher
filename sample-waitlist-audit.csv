@@ -1,0 +1,46 @@
+line_id,name,status,reason,source_lines
+W01,Gisele Maillet,stale,No renewed request in more than two months,W01
+W51,Pauline Bastarache,active,Newest of 2 entries used,W02; W51
+W03,Terry Hebert,stale,No renewed request in more than two months,W03
+W47,Normand Vienneau,active,Newest of 2 entries used,W04; W47
+W07,Lynn Savoie,stale,No renewed request in more than two months,W05; W07
+W56,Lorraine Johnson,active,Newest of 2 entries used,W06; W56
+W08,Ray Daigle,stale,No renewed request in more than two months,W08
+W31,Claudette Richard,stale,Completed an appointment after joining the waitlist,W09; W31
+W10,Sarah Collette,active,Current entry,W10
+W11,Heather Doucet,stale,Request expired at the end of September,W11
+W12,Denis Theriault,active,Current entry,W12
+W50,Kim Belliveau,stale,Phone number is marked out of service,W13; W50
+W14,Chantal Maltais,active,Current entry,W14
+W15,Mel Arsenault,stale,Completed an appointment after joining the waitlist,W15
+W48,Carole Mazerolle,active,Newest of 2 entries used,W16; W48
+W34,Brianne Cyr,stale,Requested date has passed,W17; W34
+W18,Marcel Bujold,active,Current entry,W18
+W35,Jennifer Leblanc,stale,Completed an appointment after joining the waitlist,W19; W35
+W20,Ginette Losier,active,Current entry,W20
+W21,Bob Gaudet,stale,Completed an appointment after joining the waitlist,W21
+W53,Luc Bernard,active,Newest of 2 entries used,W22; W53
+W23,Dan Robichaud,stale,Person is marked as moved away,W23
+W24,Kevin Steeves,active,Current entry,W24
+W25,Steph Poirier,stale,Completed an appointment after joining the waitlist,W25
+W42,Amanda Bourgeois,active,Newest of 2 entries used,W26; W42
+W55,Sylvie Bordage,active,Newest of 2 entries used,W27; W55
+W28,Yvon Allain,active,Current entry,W28
+W29,Anne-Marie Leger,stale,Person is marked as no longer waiting,W29
+W43,Tina Saulnier,active,Newest of 2 entries used,W30; W43
+W32,Mike Goguen,stale,Availability end date has passed,W32
+W33,Patrick Chiasson,active,Current entry,W33
+W36,Monique Hache,active,Current entry,W36
+W37,Greg Wilson,active,Current entry,W37
+W38,Rita McGraw,active,Current entry,W38
+W39,Joel Bertin,active,Current entry,W39
+W40,Vanessa Caissie,active,Current entry,W40
+W58,Ron Babin,active,Newest of 2 entries used,W41; W58
+W60,Mireille Cole,active,Newest of 2 entries used,W44; W60
+W45,Nicole Vautour,active,Current entry,W45
+W46,Shawn Duguay,active,Current entry,W46
+W49,Andrea Pitre,active,Current entry,W49
+W52,Helene Surette,active,Current entry,W52
+W54,Brent Coates,active,Current entry,W54
+W57,Lise Gautreau,active,Current entry,W57
+W59,Jordan Ouellette,active,Current entry,W59

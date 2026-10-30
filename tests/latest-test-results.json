@@ -1,0 +1,748 @@
+{
+  "generated_at": "2026-10-30T10:20:00.234Z",
+  "split_method": "Chronological split: O01-O34 development, O35-O44 locked evaluation",
+  "important_limitation": "Retrospective split. The current matcher had already been compared with all 44 answers before this split was created.",
+  "pass_rule": "At least 8 of 10 evaluation openings correct, with zero invalid and zero stale candidates",
+  "development": {
+    "name": "development",
+    "opening_ids": [
+      "O01",
+      "O02",
+      "O03",
+      "O04",
+      "O05",
+      "O06",
+      "O07",
+      "O08",
+      "O09",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "O21",
+      "O22",
+      "O23",
+      "O24",
+      "O25",
+      "O26",
+      "O27",
+      "O28",
+      "O29",
+      "O30",
+      "O31",
+      "O32",
+      "O33",
+      "O34"
+    ],
+    "openings_tested": 34,
+    "matching_openings": 34,
+    "accuracy": 1,
+    "invalid_candidates": 0,
+    "stale_candidates": 0,
+    "details": [
+      {
+        "id": "O01",
+        "expected": "W39; W42; W45; W57",
+        "actual": "W39; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O02",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O03",
+        "expected": "W10; W20; W33; W40; W43; W60",
+        "actual": "W10; W20; W33",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O04",
+        "expected": "W39; W46; W57",
+        "actual": "W39; W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O05",
+        "expected": "W33; W42; W48; W49; W51; W55; W60",
+        "actual": "W33; W48; W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O06",
+        "expected": "W10; W40; W49; W52",
+        "actual": "W10; W40; W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O07",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O08",
+        "expected": "W12; W24; W38; W42; W49",
+        "actual": "W12; W24; W38",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O09",
+        "expected": "W14; W20; W33; W42; W45; W48",
+        "actual": "W14; W20; W33",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O10",
+        "expected": "W46; W57",
+        "actual": "W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O11",
+        "expected": "W14; W42; W49; W52; W57",
+        "actual": "W14; W49; W52",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O12",
+        "expected": "W14; W42; W45; W48; W51; W60",
+        "actual": "W14; W48; W51",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O13",
+        "expected": "W39",
+        "actual": "W39",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O14",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O15",
+        "expected": "W18; W33; W46; W60",
+        "actual": "W18; W33; W46",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O16",
+        "expected": "W46; W60",
+        "actual": "W46; W60",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O17",
+        "expected": "W10; W36; W40; W45; W49",
+        "actual": "W10; W36; W40",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O18",
+        "expected": "W20; W42",
+        "actual": "W20",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O19",
+        "expected": "W24; W46; W47; W57",
+        "actual": "W24; W46; W47",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O20",
+        "expected": "W39; W46; W57",
+        "actual": "W39; W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O21",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O22",
+        "expected": "W46; W57",
+        "actual": "W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O23",
+        "expected": "W10; W36; W40; W43; W45; W51; W56; W60",
+        "actual": "W10; W36; W40",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O24",
+        "expected": "W10; W36; W40; W45; W56",
+        "actual": "W10; W36; W40",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O25",
+        "expected": "W39; W46; W57",
+        "actual": "W39; W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O26",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O27",
+        "expected": "W10; W12; W20; W40",
+        "actual": "W10; W12; W20",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O28",
+        "expected": "W33; W42; W45; W48; W51; W52; W60",
+        "actual": "W33; W48; W51",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O29",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O30",
+        "expected": "W46",
+        "actual": "W46",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O31",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O32",
+        "expected": "W42; W49",
+        "actual": "W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O33",
+        "expected": "W24; W37; W46; W47; W57",
+        "actual": "W24; W37; W46",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O34",
+        "expected": "W33; W42; W48; W49; W51; W53; W60",
+        "actual": "W33; W48; W49",
+        "correct": true,
+        "invalid": ""
+      }
+    ]
+  },
+  "evaluation": {
+    "name": "locked evaluation",
+    "opening_ids": [
+      "O35",
+      "O36",
+      "O37",
+      "O38",
+      "O39",
+      "O40",
+      "O41",
+      "O42",
+      "O43",
+      "O44"
+    ],
+    "openings_tested": 10,
+    "matching_openings": 10,
+    "accuracy": 1,
+    "invalid_candidates": 0,
+    "stale_candidates": 0,
+    "details": [
+      {
+        "id": "O35",
+        "expected": "W42; W49; W53",
+        "actual": "W49; W53",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O36",
+        "expected": "W10; W12; W40; W49; W52; W53",
+        "actual": "W10; W12; W40",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O37",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O38",
+        "expected": "W18; W33; W46; W53",
+        "actual": "W18; W33; W46",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O39",
+        "expected": "W46; W53; W57",
+        "actual": "W46; W53; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O40",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O41",
+        "expected": "W39; W46; W53; W57",
+        "actual": "W39; W46; W53",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O42",
+        "expected": "W10; W40; W49; W52; W53",
+        "actual": "W10; W40; W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O43",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O44",
+        "expected": "W36; W40; W45",
+        "actual": "W36; W40",
+        "correct": true,
+        "invalid": ""
+      }
+    ]
+  },
+  "overall": {
+    "name": "all supplied openings",
+    "opening_ids": [
+      "O01",
+      "O02",
+      "O03",
+      "O04",
+      "O05",
+      "O06",
+      "O07",
+      "O08",
+      "O09",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14",
+      "O15",
+      "O16",
+      "O17",
+      "O18",
+      "O19",
+      "O20",
+      "O21",
+      "O22",
+      "O23",
+      "O24",
+      "O25",
+      "O26",
+      "O27",
+      "O28",
+      "O29",
+      "O30",
+      "O31",
+      "O32",
+      "O33",
+      "O34",
+      "O35",
+      "O36",
+      "O37",
+      "O38",
+      "O39",
+      "O40",
+      "O41",
+      "O42",
+      "O43",
+      "O44"
+    ],
+    "openings_tested": 44,
+    "matching_openings": 44,
+    "accuracy": 1,
+    "invalid_candidates": 0,
+    "stale_candidates": 0,
+    "details": [
+      {
+        "id": "O01",
+        "expected": "W39; W42; W45; W57",
+        "actual": "W39; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O02",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O03",
+        "expected": "W10; W20; W33; W40; W43; W60",
+        "actual": "W10; W20; W33",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O04",
+        "expected": "W39; W46; W57",
+        "actual": "W39; W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O05",
+        "expected": "W33; W42; W48; W49; W51; W55; W60",
+        "actual": "W33; W48; W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O06",
+        "expected": "W10; W40; W49; W52",
+        "actual": "W10; W40; W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O07",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O08",
+        "expected": "W12; W24; W38; W42; W49",
+        "actual": "W12; W24; W38",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O09",
+        "expected": "W14; W20; W33; W42; W45; W48",
+        "actual": "W14; W20; W33",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O10",
+        "expected": "W46; W57",
+        "actual": "W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O11",
+        "expected": "W14; W42; W49; W52; W57",
+        "actual": "W14; W49; W52",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O12",
+        "expected": "W14; W42; W45; W48; W51; W60",
+        "actual": "W14; W48; W51",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O13",
+        "expected": "W39",
+        "actual": "W39",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O14",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O15",
+        "expected": "W18; W33; W46; W60",
+        "actual": "W18; W33; W46",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O16",
+        "expected": "W46; W60",
+        "actual": "W46; W60",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O17",
+        "expected": "W10; W36; W40; W45; W49",
+        "actual": "W10; W36; W40",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O18",
+        "expected": "W20; W42",
+        "actual": "W20",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O19",
+        "expected": "W24; W46; W47; W57",
+        "actual": "W24; W46; W47",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O20",
+        "expected": "W39; W46; W57",
+        "actual": "W39; W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O21",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O22",
+        "expected": "W46; W57",
+        "actual": "W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O23",
+        "expected": "W10; W36; W40; W43; W45; W51; W56; W60",
+        "actual": "W10; W36; W40",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O24",
+        "expected": "W10; W36; W40; W45; W56",
+        "actual": "W10; W36; W40",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O25",
+        "expected": "W39; W46; W57",
+        "actual": "W39; W46; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O26",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O27",
+        "expected": "W10; W12; W20; W40",
+        "actual": "W10; W12; W20",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O28",
+        "expected": "W33; W42; W45; W48; W51; W52; W60",
+        "actual": "W33; W48; W51",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O29",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O30",
+        "expected": "W46",
+        "actual": "W46",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O31",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O32",
+        "expected": "W42; W49",
+        "actual": "W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O33",
+        "expected": "W24; W37; W46; W47; W57",
+        "actual": "W24; W37; W46",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O34",
+        "expected": "W33; W42; W48; W49; W51; W53; W60",
+        "actual": "W33; W48; W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O35",
+        "expected": "W42; W49; W53",
+        "actual": "W49; W53",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O36",
+        "expected": "W10; W12; W40; W49; W52; W53",
+        "actual": "W10; W12; W40",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O37",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O38",
+        "expected": "W18; W33; W46; W53",
+        "actual": "W18; W33; W46",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O39",
+        "expected": "W46; W53; W57",
+        "actual": "W46; W53; W57",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O40",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O41",
+        "expected": "W39; W46; W53; W57",
+        "actual": "W39; W46; W53",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O42",
+        "expected": "W10; W40; W49; W52; W53",
+        "actual": "W10; W40; W49",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O43",
+        "expected": "none",
+        "actual": "none",
+        "correct": true,
+        "invalid": ""
+      },
+      {
+        "id": "O44",
+        "expected": "W36; W40; W45",
+        "actual": "W36; W40",
+        "correct": true,
+        "invalid": ""
+      }
+    ]
+  },
+  "active_people": 30,
+  "stale_people": 15
+}

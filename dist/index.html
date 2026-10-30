@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Late Opening Matcher | Kettle &amp; Stone</title>
+  <meta name="description" content="Local waitlist matching tool for Kettle & Stone Massage Therapy">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">K&amp;S</div>
+      <div>
+        <h1>Late Opening Matcher</h1>
+        <p>Find the right people for an empty appointment.</p>
+      </div>
+    </div>
+    <div class="local-badge"><span aria-hidden="true">●</span> Private and local</div>
+  </header>
+
+  <main class="shell">
+    <section class="panel setup-panel" aria-labelledby="files-heading">
+      <div class="section-heading">
+        <h2 id="files-heading">Choose this week’s files</h2>
+        <p>Nothing is uploaded. The files stay on this computer.</p>
+      </div>
+
+      <div class="file-list">
+        <label class="file-row" for="appointments-file">
+          <span class="file-copy"><strong>Booking export</strong><small id="appointments-name">Appointments CSV from Kneadly</small></span>
+          <input id="appointments-file" type="file" accept=".csv,text/csv">
+          <span class="file-state" id="appointments-state">Required</span>
+        </label>
+
+        <label class="file-row" for="waitlist-file">
+          <span class="file-copy"><strong>Waitlist</strong><small id="waitlist-name">Current typed waitlist CSV</small></span>
+          <input id="waitlist-file" type="file" accept=".csv,text/csv">
+          <span class="file-state" id="waitlist-state">Required</span>
+        </label>
+
+        <label class="file-row" for="openings-file">
+          <span class="file-copy"><strong>Late openings</strong><small id="openings-name">Openings to match</small></span>
+          <input id="openings-file" type="file" accept=".csv,text/csv">
+          <span class="file-state" id="openings-state">Required for a batch</span>
+        </label>
+      </div>
+
+      <div class="run-row">
+        <label class="date-field" for="run-date">
+          <span>Waitlist date</span>
+          <input id="run-date" type="date" value="2026-10-21">
+        </label>
+        <p class="run-help">Usually filled from the waitlist filename.</p>
+        <button class="primary-button" id="run-button" type="button">Find matches</button>
+      </div>
+      <div class="message" id="message" role="alert" hidden></div>
+
+      <details class="desk-mode">
+        <summary>Match one new cancellation instead</summary>
+        <p>Load the booking export and waitlist above, then enter the opening here.</p>
+        <form id="single-form" class="single-form">
+          <label>Date<input id="single-date" type="date"></label>
+          <label>Start<input id="single-start" type="time"></label>
+          <label>Length
+            <select id="single-length">
+              <option value="30">30 minutes</option>
+              <option value="45">45 minutes</option>
+              <option value="60" selected>60 minutes</option>
+              <option value="90">90 minutes</option>
+            </select>
+          </label>
+          <label>Therapist<select id="single-therapist"></select></label>
+          <label>Hours of notice<input id="single-notice" type="number" min="0" max="24" step="0.25" value="2"></label>
+          <label>Type
+            <select id="single-kind">
+              <option value="late cancel">Late cancellation</option>
+              <option value="no-show">No-show</option>
+            </select>
+          </label>
+          <button class="primary-button" id="single-button" type="submit">Match this opening</button>
+        </form>
+      </details>
+
+      <details class="algorithm-guide">
+        <summary>How does the matcher decide?</summary>
+        <ol>
+          <li><strong>Clean the list.</strong> Merge repeat entries, use the newest preferences, and remove people who are out of date or already booked.</li>
+          <li><strong>Apply clinic rules.</strong> Check therapist restrictions, including prenatal eligibility.</li>
+          <li><strong>Check the opening.</strong> Compare day, start time, appointment length, and notice.</li>
+          <li><strong>Choose safely.</strong> Keep only people who pass every known rule. Unclear records are not offered.</li>
+          <li><strong>Show up to three.</strong> Use current waitlist order and explain the decision for each opening.</li>
+        </ol>
+      </details>
+    </section>
+
+    <section id="results-section" class="panel results-panel" aria-labelledby="results-heading" hidden>
+      <div class="section-heading inline">
+        <div>
+          <h2 id="results-heading">Matches</h2>
+          <p>Review the names, then contact one person at a time.</p>
+        </div>
+        <div class="button-row">
+          <button class="secondary-button" id="download-results" type="button">Download matches</button>
+          <button class="quiet-button" id="download-audit" type="button">Download cleanup list</button>
+        </div>
+      </div>
+
+      <div class="summary-line" id="summary-grid"></div>
+
+      <div class="tabs" role="tablist" aria-label="Result views">
+        <button class="tab active" id="matches-tab" type="button" role="tab" aria-selected="true" aria-controls="matches-panel">Openings</button>
+        <button class="tab" id="audit-tab" type="button" role="tab" aria-selected="false" aria-controls="audit-panel">Waitlist cleanup</button>
+      </div>
+
+      <div id="matches-panel" role="tabpanel" aria-labelledby="matches-tab">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Opening</th>
+                <th>First choice</th>
+                <th>Second choice</th>
+                <th>Third choice</th>
+                <th><span class="sr-only">Decision</span></th>
+              </tr>
+            </thead>
+            <tbody id="results-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="audit-panel" role="tabpanel" aria-labelledby="audit-tab" hidden>
+        <p class="audit-note">Current entries are kept. Repeat and outdated entries are excluded. Health notes are never displayed.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Line</th><th>Name</th><th>Status</th><th>Reason</th><th>Source lines</th></tr>
+            </thead>
+            <tbody id="audit-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <aside id="detail-panel" class="detail-panel" aria-live="polite" hidden></aside>
+    </section>
+
+    <p class="safety-note">This tool does not send messages, hold appointments, or change Kneadly. Confirm the slot before every offer.</p>
+  </main>
+
+  <script src="matcher.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
